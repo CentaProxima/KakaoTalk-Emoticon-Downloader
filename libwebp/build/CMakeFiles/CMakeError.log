@@ -1,0 +1,498 @@
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP16 failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_55743.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_BSWAP16 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55743.dir\Debug\\" /Fd"cmTC_55743.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(3,30): warning C4013: '__builtin_bswap16'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_55743.vcxproj]
+src.obj : error LNK2019: __builtin_bswap16main 함수에서 참조되는 확인할 수 없는 외부 기호 [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_55743.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_55743.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_55743.vcxproj]
+
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap16(0);
+      return 0;
+    }
+  
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP32 failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_7bf84.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_BSWAP32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7bf84.dir\Debug\\" /Fd"cmTC_7bf84.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(3,30): warning C4013: '__builtin_bswap32'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_7bf84.vcxproj]
+src.obj : error LNK2019: __builtin_bswap32main 함수에서 참조되는 확인할 수 없는 외부 기호 [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_7bf84.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_7bf84.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_7bf84.vcxproj]
+
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap32(0);
+      return 0;
+    }
+  
+Performing C SOURCE FILE Test HAVE_BUILTIN_BSWAP64 failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fcb95.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_BSWAP64 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fcb95.dir\Debug\\" /Fd"cmTC_fcb95.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(3,30): warning C4013: '__builtin_bswap64'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_fcb95.vcxproj]
+src.obj : error LNK2019: __builtin_bswap64main 함수에서 참조되는 확인할 수 없는 외부 기호 [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_fcb95.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_fcb95.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_fcb95.vcxproj]
+
+
+Source file was:
+
+    int main(void) {
+      (void)__builtin_bswap64(0);
+      return 0;
+    }
+  
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_694c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_694c6.dir\Debug\\" /Fd"cmTC_694c6.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_694c6.vcxproj]
+
+
+
+Performing C SOURCE FILE Test HAVE_PTHREAD_PRIO_INHERIT failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a3bc9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_PTHREAD_PRIO_INHERIT /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3bc9.dir\Debug\\" /Fd"cmTC_a3bc9.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(2,18): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_a3bc9.vcxproj]
+
+
+Source file was:
+
+        #include <pthread.h>
+        int main (void) {
+          int attr = HAVE_PTHREAD_PRIO_INHERIT;
+          return attr;
+        }
+      
+Performing C SOURCE FILE Test PTHREAD_CREATE_UNDETACHED failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5d433.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D PTHREAD_CREATE_UNDETACHED /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d433.dir\Debug\\" /Fd"cmTC_5d433.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(2,18): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_5d433.vcxproj]
+
+
+Source file was:
+
+        #include <pthread.h>
+        int main (void) {
+          int attr = PTHREAD_CREATE_UNDETACHED;
+          return attr;
+        }
+      
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_beaa1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_DLFCN_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_beaa1.dir\Debug\\" /Fd"cmTC_beaa1.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'dlfcn.h': No such file or directory [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_beaa1.vcxproj]
+
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(void){return 0;}
+
+Determining if files GLUT/glut.h exist failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2afb9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_GLUT_GLUT_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2afb9.dir\Debug\\" /Fd"cmTC_2afb9.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CheckIncludeFiles\HAVE_GLUT_GLUT_H.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CheckIncludeFiles\HAVE_GLUT_GLUT_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GLUT/glut.h': No such file or directory [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_2afb9.vcxproj]
+
+
+Source:
+/* */
+#include <GLUT/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files GL/glut.h exist failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d11d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_GL_GLUT_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d11d2.dir\Debug\\" /Fd"cmTC_d11d2.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CheckIncludeFiles\HAVE_GL_GLUT_H.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CheckIncludeFiles\HAVE_GL_GLUT_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GL/glut.h': No such file or directory [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d11d2.vcxproj]
+
+
+Source:
+/* */
+#include <GL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/glut.h exist failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_21f44.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_OPENGL_GLUT_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21f44.dir\Debug\\" /Fd"cmTC_21f44.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CheckIncludeFiles\HAVE_OPENGL_GLUT_H.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CheckIncludeFiles\HAVE_OPENGL_GLUT_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'OpenGL/glut.h': No such file or directory [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_21f44.vcxproj]
+
+
+Source:
+/* */
+#include <OpenGL/glut.h>
+
+
+int main(void){return 0;}
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_16f05.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_STRINGS_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16f05.dir\Debug\\" /Fd"cmTC_16f05.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'strings.h': No such file or directory [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_16f05.vcxproj]
+
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ea499.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  HAVE_UNISTD_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea499.dir\Debug\\" /Fd"cmTC_ea499.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'unistd.h': No such file or directory [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_ea499.vcxproj]
+
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5b7df.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /I"E:\workspace\EmoticonDownloader\libwebp-1.1.0" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MIPS32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5b7df.dir\Debug\\" /Fd"cmTC_5b7df.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_5b7df.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: 구문 오류: ';'이(가) 'is' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_5b7df.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_5b7df.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: 구문 오류: ';'이(가) 'not' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_5b7df.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_5b7df.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: 구문 오류: ';'이(가) 'valid' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_5b7df.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_5b7df.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: 구문 오류: ';'이(가) 'code' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_5b7df.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_5b7df.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: 구문 오류: ';'이(가) 'return' 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_5b7df.vcxproj]
+
+
+Source file was:
+
+      #include "E:/workspace/EmoticonDownloader/libwebp-1.1.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS32 failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_231cc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /I"E:\workspace\EmoticonDownloader\libwebp-1.1.0" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MIPS32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_231cc.dir\Debug\\" /Fd"cmTC_231cc.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_231cc.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: 구문 오류: ';'이(가) 'is' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_231cc.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_231cc.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: 구문 오류: ';'이(가) 'not' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_231cc.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_231cc.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: 구문 오류: ';'이(가) 'valid' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_231cc.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_231cc.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: 구문 오류: ';'이(가) 'code' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_231cc.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_231cc.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: 구문 오류: ';'이(가) 'return' 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_231cc.vcxproj]
+
+
+Source file was:
+
+      #include "E:/workspace/EmoticonDownloader/libwebp-1.1.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS32)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3401b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /I"E:\workspace\EmoticonDownloader\libwebp-1.1.0" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MIPS_DSP_R2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3401b.dir\Debug\\" /Fd"cmTC_3401b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3401b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: 구문 오류: ';'이(가) 'is' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3401b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3401b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: 구문 오류: ';'이(가) 'not' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3401b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3401b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: 구문 오류: ';'이(가) 'valid' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3401b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3401b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: 구문 오류: ';'이(가) 'code' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3401b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3401b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: 구문 오류: ';'이(가) 'return' 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3401b.vcxproj]
+
+
+Source file was:
+
+      #include "E:/workspace/EmoticonDownloader/libwebp-1.1.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MIPS_DSP_R2 failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d0543.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /I"E:\workspace\EmoticonDownloader\libwebp-1.1.0" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MIPS_DSP_R2 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d0543.dir\Debug\\" /Fd"cmTC_d0543.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d0543.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: 구문 오류: ';'이(가) 'is' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d0543.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d0543.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: 구문 오류: ';'이(가) 'not' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d0543.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d0543.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: 구문 오류: ';'이(가) 'valid' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d0543.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d0543.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: 구문 오류: ';'이(가) 'code' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d0543.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d0543.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: 구문 오류: ';'이(가) 'return' 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d0543.vcxproj]
+
+
+Source file was:
+
+      #include "E:/workspace/EmoticonDownloader/libwebp-1.1.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MIPS_DSP_R2)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d49a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /I"E:\workspace\EmoticonDownloader\libwebp-1.1.0" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_NEON /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d49a9.dir\Debug\\" /Fd"cmTC_d49a9.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d49a9.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: 구문 오류: ';'이(가) 'is' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d49a9.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d49a9.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: 구문 오류: ';'이(가) 'not' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d49a9.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d49a9.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: 구문 오류: ';'이(가) 'valid' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d49a9.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d49a9.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: 구문 오류: ';'이(가) 'code' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d49a9.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d49a9.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: 구문 오류: ';'이(가) 'return' 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_d49a9.vcxproj]
+
+
+Source file was:
+
+      #include "E:/workspace/EmoticonDownloader/libwebp-1.1.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_NEON failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2461b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /I"E:\workspace\EmoticonDownloader\libwebp-1.1.0" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_NEON /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2461b.dir\Debug\\" /Fd"cmTC_2461b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_2461b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: 구문 오류: ';'이(가) 'is' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_2461b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_2461b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: 구문 오류: ';'이(가) 'not' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_2461b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_2461b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: 구문 오류: ';'이(가) 'valid' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_2461b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_2461b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: 구문 오류: ';'이(가) 'code' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_2461b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_2461b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: 구문 오류: ';'이(가) 'return' 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_2461b.vcxproj]
+
+
+Source file was:
+
+      #include "E:/workspace/EmoticonDownloader/libwebp-1.1.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_NEON)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_14638.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /I"E:\workspace\EmoticonDownloader\libwebp-1.1.0" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MSA /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_14638.dir\Debug\\" /Fd"cmTC_14638.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_14638.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: 구문 오류: ';'이(가) 'is' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_14638.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_14638.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: 구문 오류: ';'이(가) 'not' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_14638.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_14638.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: 구문 오류: ';'이(가) 'valid' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_14638.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_14638.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: 구문 오류: ';'이(가) 'code' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_14638.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_14638.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: 구문 오류: ';'이(가) 'return' 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_14638.vcxproj]
+
+
+Source file was:
+
+      #include "E:/workspace/EmoticonDownloader/libwebp-1.1.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test WEBP_HAVE_FLAG_MSA failed with the following output:
+Change Dir: E:/workspace/EmoticonDownloader/libwebp-1.1.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3d20b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && .NET Framework용 Microsoft (R) Build Engine 버전 16.8.2+25e4d540b
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.28.29334(x64)
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  src.c
+  cl /c /I"E:\workspace\EmoticonDownloader\libwebp-1.1.0" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WEBP_HAVE_FLAG_MSA /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d20b.dir\Debug\\" /Fd"cmTC_3d20b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c"
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2065: 'this': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3d20b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,14): error C2146: 구문 오류: ';'이(가) 'is' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3d20b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2065: 'is': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3d20b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,17): error C2146: 구문 오류: ';'이(가) 'not' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3d20b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2065: 'not': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3d20b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,21): error C2146: 구문 오류: ';'이(가) 'valid' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3d20b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2065: 'valid': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3d20b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(5,27): error C2146: 구문 오류: ';'이(가) 'code' 식별자 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3d20b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2065: 'code': 선언되지 않은 식별자입니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3d20b.vcxproj]
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\src.c(7,9): error C2143: 구문 오류: ';'이(가) 'return' 앞에 없습니다. [E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\CMakeFiles\CMakeTmp\cmTC_3d20b.vcxproj]
+
+
+Source file was:
+
+      #include "E:/workspace/EmoticonDownloader/libwebp-1.1.0/cmake/../src/dsp/dsp.h"
+      int main(void) {
+        #if !defined(WEBP_USE_MSA)
+        this is not valid code
+        #endif
+        return 0;
+      }
+    

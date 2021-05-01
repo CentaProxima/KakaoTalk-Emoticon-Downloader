@@ -1,0 +1,1 @@
+E:\workspace\EmoticonDownloader\libwebp-1.1.0\build\webputils.dir\Release\webputils.lib

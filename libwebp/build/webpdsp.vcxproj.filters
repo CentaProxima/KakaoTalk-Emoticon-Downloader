@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\alpha_processing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\cpu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\dec_clip_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\filters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\lossless.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\rescaler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\upsampling.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\yuv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\alpha_processing_sse41.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\dec_sse41.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\upsampling_sse41.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\yuv_sse41.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\alpha_processing_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\dec_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\filters_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\lossless_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\rescaler_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\upsampling_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\yuv_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\cost.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\lossless_enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\ssim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\cost_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\enc_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\lossless_enc_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\ssim_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\enc_sse41.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\lossless_enc_sse41.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\dsp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\lossless.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\lossless_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\yuv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\common_sse2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\msa_macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\mips_macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dsp\quant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{758C69B2-F9B4-3CCE-AF39-18C82B78AE69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3EBB64B6-DC69-38B3-AD5E-AEAC895120B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

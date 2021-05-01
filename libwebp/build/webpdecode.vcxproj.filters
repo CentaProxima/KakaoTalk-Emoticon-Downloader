@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\alpha_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\buffer_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\frame_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\idec_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\io_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\quant_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\tree_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\vp8_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\vp8l_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\webp_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\alphai_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\common_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\vp8_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\vp8i_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\vp8li_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\src\dec\webpi_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\workspace\EmoticonDownloader\libwebp-1.1.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{758C69B2-F9B4-3CCE-AF39-18C82B78AE69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3EBB64B6-DC69-38B3-AD5E-AEAC895120B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
