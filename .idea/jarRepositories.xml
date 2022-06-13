@@ -34,6 +34,11 @@
     <remote-repository>
       <option name="id" value="local-repository" />
       <option name="name" value="local repository" />
+      <option name="url" value="file://D:\workspace\KakaoEmoticonDownloader/lib" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="local-repository" />
+      <option name="name" value="local repository" />
       <option name="url" value="file://E:\workspace\KakaoEmoticonDownloader/lib" />
     </remote-repository>
   </component>
